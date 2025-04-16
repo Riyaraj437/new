@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter{
+            font-size: 50px;
+        }
+        p::first-line{
+            background-color: yellow;
+            color:red;
+        }
+        p::selection{
+            background-color: chartreuse;
+            color: brown;
+        }
+        /* .ul li::before{
+            content: "✔";
+        } */
+        #r::after{
+            content: "💖";
+        
+        }
+        #b::after{
+            content: "💙";
+        }
+        #g::after{
+            content: "💚";
+        }
+        ul li::marker{
+            content: "✔";
+            color: green;
+        }
+        .h h4{
+
+            background-color: black;
+            color: yellow;
+            padding: 10px;
+            display: none;
+        }
+        .h:hover h4{
+            display: block;
+        }
+
+        a:link{
+            color: red;
+
+        }
+        a:hover{
+            color: hotpink;
+        }
+        a:active{
+            color: blue;
+        }
+       
+
+    </style>
+</head>
+<body>
+    
+    <h1>Hello  This is Pesudo ELEMENTS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam recusandae quis repudiandae odio dignissimos est nihil commodi alias quaerat, deleniti ab repellendus excepturi, accusamus distinctio, at laborum tenetur officia molestias?</p>
+    <ul class="ul">
+        <li id="r">Red</li>
+        <li id="b">Blue</li>
+        <li id="g">Green</li>
+    </ul>
+
+    <div class="h">Pesudo
+        <h4>Pesudo CLASS</h4>
+
+    </div>
+
+
+    <h2>Pesudo CLASS</h2>
+    <b><a href="https://www.instagram.com/">Python.org</a></b>
+</body>
+</html>
